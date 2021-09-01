@@ -1,0 +1,50 @@
+.main-wrapper {
+  padding: 2rem;
+
+  background-color: #456794;
+  opacity: 1;
+  background-image:  linear-gradient(30deg, #1BAAA1 12%, transparent 12.5%, transparent 87%, #1BAAA1 87.5%, #1BAAA1), linear-gradient(150deg, #1BAAA1 12%, transparent 12.5%, transparent 87%, #1BAAA1 87.5%, #1BAAA1), linear-gradient(30deg, #1BAAA1 12%, transparent 12.5%, transparent 87%, #1BAAA1 87.5%, #1BAAA1), linear-gradient(150deg, #1BAAA1 12%, transparent 12.5%, transparent 87%, #1BAAA1 87.5%, #1BAAA1), linear-gradient(60deg, #1BAAA177 25%, transparent 25.5%, transparent 75%, #1BAAA177 75%, #1BAAA177), linear-gradient(60deg, #1BAAA177 25%, transparent 25.5%, transparent 75%, #1BAAA177 75%, #1BAAA177);
+  background-size: 32px 56px;
+  background-position: 0 0, 0 0, 16px 28px, 16px 28px, 0 0, 16px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-card {
+  width: 50vw;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  .ant-card-head-title {
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: #F04D44;
+  }
+  .ant-divider-inner-text {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.5rem;
+    color: #F04D44;
+  }
+}
+
+.title-section {
+  font-family: 'Londrina Solid', cursive;
+  text-align: center;
+  font-size: 2rem;
+  color: #F04D44 !important;
+}
+
+.main-img {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.ant-divider-horizontal.ant-divider-with-text::before, .ant-divider-horizontal.ant-divider-with-text::after {
+  border-top: 2px solid #1BAAA1 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .main-card {
+    width: 80vw;
+  }
+}
